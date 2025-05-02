@@ -1,9 +1,13 @@
-import express from "express";
-import axios from "axios";
 import { JSDOM } from "jsdom";
+
+import axios from "axios";
+import express from "express"
+import cors from "cors"
 
 const app = express();
 const PORT = 3000;
+
+app.use(cors())
 
 app.get("/api/scrape", async (req, res) => {
   const keyword = req.query.keyword;
