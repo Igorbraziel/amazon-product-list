@@ -6,5 +6,7 @@ Inicialize o projeto Bun: bun init
 Instale as dependências: express axios jsdom
 
 Para Rodar:
+
 Backend: node index.js
+
 Frontend: cd amazon-scraper-frontend npm run dev
