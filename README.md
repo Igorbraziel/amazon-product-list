@@ -5,6 +5,12 @@ Inicialize o projeto Bun: bun init
 
 Instale as dependências: express axios jsdom
 
+``` bash
+npm install express
+npm install axios
+npm install jsdom
+```
+
 Para Rodar:
 
 Backend: node index.js
