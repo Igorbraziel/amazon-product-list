@@ -13,6 +13,13 @@ npm install jsdom
 
 Para Rodar:
 
-Backend: node index.js
+Backend:
+``` bash
+node index.js
+```
 
-Frontend: cd amazon-scraper-frontend npm run dev
+Frontend:  
+``` bash
+cd amazon-scraper-frontend
+npm run dev
+```
